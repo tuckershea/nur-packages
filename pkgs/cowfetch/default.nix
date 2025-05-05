@@ -2,6 +2,7 @@
   fetchFromGitHub,
   fetchpatch,
   stdenv,
+  lib,
 }:
 stdenv.mkDerivation rec {
   pname = "cowfetch";
