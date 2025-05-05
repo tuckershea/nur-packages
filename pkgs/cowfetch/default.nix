@@ -31,7 +31,7 @@ stdenv.mkDerivation rec {
     description = "Fetch program with a cow";
     homepage = "https://github.com/bradeythedev/cowfetch";
     license = licenses.gpl3;
-    maintainers = [  ];
-    platforms = platforms.linux;
+    maintainers = [ ];
+    broken = stdenv.isDarwin;
   };
 }
