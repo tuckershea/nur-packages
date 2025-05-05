@@ -16,7 +16,6 @@
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  cowfetch = pkgs.callPackage ./pkgs/cowfetch { };
   linux-bench = pkgs.callPackage ./pkgs/linux-bench { };
   mailrise = pkgs.callPackage ./pkgs/mailrise { };
   salt-lint = pkgs.callPackage ./pkgs/salt-lint { };
